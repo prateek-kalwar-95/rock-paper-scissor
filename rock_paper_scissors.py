@@ -97,15 +97,17 @@ if __name__ == '__main__':
 			print("Wrong Choice")	
 			continue
 
-		# Play the traditional version of the game
+		
 		if choice == 1:
 			rps()
 
-		# Quit the GAME LOOP 	
+			
 		elif choice == 2:
 			break
 
-		# Other wrong input
+		
 		else:
 			clear()
 			print("Wrong choice. Read instructions carefully.")
+			
+			
