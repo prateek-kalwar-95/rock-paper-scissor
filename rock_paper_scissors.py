@@ -92,7 +92,7 @@ def rps():
 
 if __name__ == '__main__':
 
-	# The mapping between moves and numbers
+    # The mapping between moves and numbers
     game_map = {0:"rock", 1:"paper", 2:"scissors"}
     name = input("Enter your name: ")
     numberofmatch=0
@@ -100,7 +100,7 @@ if __name__ == '__main__':
     computer_win=0
     numberofmatch_Tie=0
 
-	# The GAME LOOP
+    # The GAME LOOP
     while True:
 		#The Game Menu
         print("***********")
@@ -110,7 +110,7 @@ if __name__ == '__main__':
         print("Enter 3 to see the Game info")
         print("***********")
 
-		# Try block to handle the player choice 
+	# Try block to handle the player choice 
         try:
             choice = int(input("Enter your choice = "))
         except ValueError:
@@ -118,7 +118,7 @@ if __name__ == '__main__':
             print("Wrong Choice")	
             continue
 
-		# Play the traditional version of the game
+	# Play the traditional version of the game
         if choice == 1:
             rps()
 
