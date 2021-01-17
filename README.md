@@ -1,6 +1,6 @@
 # rock-paper-scissor
 
-### Library Requirement
+### Library Requirement :
 
 #### install random
 #### install os 
