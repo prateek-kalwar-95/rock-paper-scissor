@@ -1,6 +1,6 @@
 # rock-paper-scissor
 
-install random
-install os
-install time 
-install csv
+install random\n
+install os\n
+install time\n 
+install csv\n
